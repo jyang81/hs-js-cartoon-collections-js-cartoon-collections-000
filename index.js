@@ -37,9 +37,8 @@ function findTheCheese (foods) {
     if (foods[i] === cheese[0] || cheese[1] || cheese[2]) {
      return cheese[i];
     }
- 
-  }
-    
-  
+   else {
+     return "no cheese!";
+   }
 }
-
+}
