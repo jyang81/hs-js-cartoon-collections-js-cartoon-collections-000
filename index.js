@@ -35,6 +35,7 @@ function findTheCheese (foods) {
   var cheese = ["cheddar", "gouda", "camembert"];
   var answer = "no cheese!";
   for (let i = 0; i < foods.length; i++) {
+<<<<<<< HEAD
     
     if (foods[i] == cheese[0] || 
     foods[i] == cheese[1] || 
@@ -45,5 +46,19 @@ function findTheCheese (foods) {
 }
 console.log(answer);
 return answer;
+=======
+    if (foods[i] === cheese[0] || cheese[1] || cheese[2]) {
+     return foods[i];
+    }
+
+   else {
+     return "no cheese!";
+   }
+}
+ 
+
+    
+>>>>>>> 82a5259e89be5f7d7a3df0387124b4d0cf6abd1a
   
 }
+
