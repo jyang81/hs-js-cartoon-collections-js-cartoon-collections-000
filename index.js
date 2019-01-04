@@ -4,7 +4,7 @@ function dwarfRollCall(dwarves) {
   for (let i = 0; i < dwarves.length; i++) {
     dwarfNames.push(`${i + 1}. ${dwarves[i]} `)
   }
-  
+  console.log(dwarfNames);
   return `${dwarfNames.join('')}`
   
 }
@@ -15,6 +15,7 @@ function summonCaptainPlanet(planeteerCalls){
   for (let i = 0; i < planeteerCalls.length; i++) {
     calls.push(`${planeteerCalls[i].toUpperCase()}!`)
   }
+   console.log(calls);
    return calls;
   
 }
